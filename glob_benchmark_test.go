@@ -8,7 +8,7 @@ import (
 	"github.com/winebarrel/sglob"
 )
 
-func BenchmarkGlobMatch(b *testing.B) {
+func BenchmarkGlob(b *testing.B) {
 	benchmarks := []struct {
 		pat string
 		str string
@@ -34,7 +34,7 @@ func BenchmarkGlobMatch(b *testing.B) {
 	}
 }
 
-func BenchmarkRegexpMatch(b *testing.B) {
+func BenchmarkRegexp(b *testing.B) {
 	benchmarks := []struct {
 		pat string
 		str string
