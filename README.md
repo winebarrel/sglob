@@ -1,5 +1,10 @@
 # sglob
 
+[![CI](https://github.com/winebarrel/sglob/actions/workflows/ci.yml/badge.svg)](https://github.com/winebarrel/sglob/actions/workflows/ci.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/winebarrel/sglob.svg)](https://pkg.go.dev/github.com/winebarrel/sglob)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/winebarrel/sglob)](https://pkg.go.dev/github.com/winebarrel/sglob?tab=versions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/winebarrel/sglob)](https://goreportcard.com/report/github.com/winebarrel/sglob)
+
 sglob is a small globbing library for string.
 
 ## Usage
