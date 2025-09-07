@@ -12,3 +12,7 @@ test:
 .PHONY: lint
 lint:
 	golangci-lint run
+
+.PHONY: bench
+bench:
+	go test -bench . -benchmem
